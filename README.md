@@ -9,11 +9,11 @@ A live video stream is also displayed through a web browser so the user can moni
 The design reduces unnecessary spraying, improves targeting accuracy, and demonstrates the integration of computer vision, 
 embedded control, and mechanical actuation in a smart agricultural application.
 
-Working Mechanism
-The camera continuously captures live frames of the plants.
-The YOLO model processes each frame and detects diseased areas.
-The bounding box center is converted into servo movement commands.
-The pan and tilt servos align the nozzle with the target spot.
-The relay activates the pump for a short, controlled spray.
-A cooldown timer prevents repeated spraying in quick succession.
-The live annotated feed is streamed through a local web server for monitoring.
+Working Mechanism:
+1.The camera continuously captures live frames of the plants.
+2.The YOLO model processes each frame and detects diseased areas.
+3.The bounding box center is converted into servo movement commands.
+4.The pan and tilt servos align the nozzle with the target spot.
+5.The relay activates the pump for a short, controlled spray.
+6.A cooldown timer prevents repeated spraying in quick succession.
+7.The live annotated feed is streamed through a local web server for monitoring.
